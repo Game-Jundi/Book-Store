@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+
+
+
 
 :root{
     --purple:#8e44ad;
@@ -12,6 +17,16 @@
     --border:.1rem solid var(--black);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
  }
+ body{
+    border-image-width: 1%;
+    flex-direction: var(--border);
+page-orientation: var(--light-color);
+font-size: medium;
+align-items: center;
+page: 2px; 
+
+}
+
  
 *{
     font-family: 'Rubik',sans-serif;
@@ -20,7 +35,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-decoration: none;
+    text-decoration: none; 
     transition: all .2s linear;
 }
 
@@ -43,8 +58,8 @@ html{
 }
 section{
     padding: 3rem 2rem;         
-}
-
+} 
+ 
 .btn,.option-btn,.delete-btn{
     display: inline-block;
     margin-top: 1rem;
